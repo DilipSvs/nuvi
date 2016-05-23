@@ -15,7 +15,9 @@ table {
 	width: 20px;
 	height: 20px;
 	background: url('../img/Colour-social-media-icons-square-20.png');
-	display: block;
+	display: inline-block;
+	margin-right:10px;
+	margin-top:-10px;
 }
 .icons-facebook{
   background-position: 0px 0px;
