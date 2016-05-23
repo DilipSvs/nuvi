@@ -1,0 +1,11 @@
+{
+	"status": "success",
+	"data": {
+		"endpoints": {
+			"nuviData": "assets/feeds/nuvi.json",
+			"tableData": "assets/feeds/data1.json",
+			"socialMediaReal": "https://nuvi-challenge.herokuapp.com/activities",
+			"socialMediaData": "assets/feeds/nuviJson.json"
+		}
+	}
+}

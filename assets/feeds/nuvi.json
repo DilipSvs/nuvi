@@ -1,0 +1,27 @@
+{
+   "briefDescriptionOfMarketplace" : "&lt;p&gt;test&lt;/p&gt;",
+   "businessPhoneCode" : "080",
+   "businessPhoneNumber" : "456987",
+   "channelToKnowUs" : "Advertisements",
+   "emailId" : "avilsouza@gmail.com",
+   "marketplaceToBeOnboarded" : "B2",
+   "mobileCode" : "+91",
+   "mobileNumber" : "987654321",
+   "name" : "test business",
+   "sellProdOnOtherSiteFlg" : false,
+   "sellerAddress" : {
+      "billingAddress" : false,
+      "cityName" : "Bangalore",
+      "defaultAddress" : false,
+      "editable" : false,
+      "mobileCode" : "+91",
+      "mobileNumber" : "9876543210",
+      "pinCode" : "560001",
+      "shippingAddress" : false,
+      "state" : "KARNATAKA",
+      "streetLine1" : "test address line 1",
+      "streetLine2" : "test address line 2",
+      "visibleInAddressBook" : false
+   },
+   "uid" : "T00001000"
+}

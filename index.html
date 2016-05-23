@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="nuvi" ng-controller="mainCtrl">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>NUVI</title>
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap-theme.css" />	
+    <link rel="stylesheet" href="assets/css/main.css" />
+    
+    <script src="libraries/jquery/js/jquery-2.1.1.js"></script>
+    <script src="libraries/angular/js/angular.js"></script>
+    <script src="libraries/angular/js/angular-ui-router.min.js"></script>
+    <script src="libraries/angular/js/angular-sanitize.js"></script>
+    <script src="libraries/angular/js/ui-bootstrap-tpls-0.11.0.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.js"></script>
+
+    <script src="app.js"></script>
+	
+	<!--./   Controller -->    
+    <script src="controllers/main.controllers.js"></script>
+    <script src="controllers/app.controllers.js"></script>
+		
+	<!--./   Directive -->
+    <script src="directives/sort.directive.js"></script>
+
+	<!--./   Services -->
+    <script src="services/crud.service.js"></script> 
+    
+</head>
+<body>
+
+	<div class="">
+		<header ng-include="'views/header.html'"></header>
+		<div ui-view></div>
+	</div>
+
+</body>
+</html>
